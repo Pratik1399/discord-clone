@@ -168,6 +168,7 @@ code {
 
 .chat__messages {
 	flex: 1;
+	overflow: scroll;
 }
 
 .chat__input {
@@ -254,6 +255,15 @@ code {
 	outline-width: 0;
 	color: white;
 	border: none;
+}
+
+.chat__messages::-webkit-scrollbar {
+	display: none;
+}
+
+.chat__messages {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 /*Message*/
