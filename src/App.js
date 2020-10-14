@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { auth } from "./firebase/firebase";
-import { selectUser, login, logout } from "./features/userSlice";
+import { selectUser, login, logout } from "./reducer/userSlice";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Chat from "./components/Chat/Chat";
 import Login from "./components/Login/Login";

@@ -10,7 +10,7 @@ import MicIcon from "@material-ui/icons/Mic";
 import HeadsetIcon from "@material-ui/icons/Headset";
 import SettingsIcon from "@material-ui/icons/Settings";
 import { useSelector } from "react-redux";
-import { selectUser } from "../../features/userSlice";
+import { selectUser } from "../../reducer/userSlice";
 import db, { auth } from "../../firebase/firebase";
 
 function Sidebar() {

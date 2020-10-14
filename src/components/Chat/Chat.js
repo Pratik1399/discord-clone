@@ -6,8 +6,8 @@ import GifIcon from "@material-ui/icons/Gif";
 import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
 import Message from "../Message/Message";
 import { useSelector } from "react-redux";
-import { selectUser } from "../../features/userSlice";
-import { selectChannelId, selectChannelName } from "../../features/appSlice";
+import { selectUser } from "../../reducer/userSlice";
+import { selectChannelId, selectChannelName } from "../../reducer/appSlice";
 import db from "../../firebase/firebase";
 import firebase from "firebase";
 
